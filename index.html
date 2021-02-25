@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор валюты</title>
+</head>
+<body>
+
+
+<img src="./money_1.png" alt="logo-money-calc" class="money-img">
+<h1>Калькулятор валюты</h1>
+  
+<div class="container">
+    <!-- one -->
+    <div class="currency">
+        <select id="currency-one">
+            <option value="AED">AED</option>
+            <option value="EUR" selected>EUR</option>
+            <option value="GTQ">GTQ</option>
+            
+        </select>
+
+        <input type="number" id="amount-one" placeholder="0" value="1">
+    </div>
+
+    <div class="swap-rate-container">
+        <button class="btn" id="swap">Swap</button>
+        <div class="rate" id="rate"></div>
+    </div>
+    <!-- two -->
+    <div class="currency">
+        <select id="currency-two">
+            <option value="AED">AED</option>
+            <option value="EUR" selected>EUR</option>
+            <option value="GTQ">GTQ</option>
+            
+        </select>
+
+        <input type="number" id="amount-two" placeholder="0" >
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
